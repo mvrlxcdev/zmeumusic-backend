@@ -1,0 +1,6 @@
+
+ytmusicapi~=1.8.1
+yt-dlp~=2024.8.6
+ffmpeg-python~=0.2.0
+flask~=3.0.3
+requests~=2.32.3
