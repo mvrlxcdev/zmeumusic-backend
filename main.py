@@ -32,6 +32,9 @@ def stream_audio_mpeg():
 
     return stream_audio_file_mpeg(audio_url, request.headers)
 
+@app.route('/')
+def default():
+    return "bobi bob"
 
 @app.route('/search')
 def search_songs():
